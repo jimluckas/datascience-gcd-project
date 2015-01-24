@@ -9,7 +9,7 @@ The flow of the script is as follows:
 <ol>
 <li>Set the working directory</li>
 <li>Read the data source files in</li>
-<li>Transform the name sin the feature data</li>
+<li>Transform the names in the feature data</li>
 <li>Combine te Data files</li>
 <li>Get the mean and Standard Deviation</li>
 <li>Get the facors on activity and subject in the data</li>
@@ -21,12 +21,11 @@ The flow of the script is as follows:
 <p>
 The following variables are used in the script:
 <ul>
-<li>training</li>
-<li>testing</li>
-<li>activityLabels</li>
-<li>features</li>
-<li>allData</li>
-<li>mean_std</li>
-<li>colnames</li>
-<li>tidy_data</li>
+<li>training  (file data)</li>
+<li>testing  (file data)</li>
+<li>activityLabels (file data)</li>
+<li>features  (features table data)</li>
+<li>allData  (all the files data storage)</li>
+<li>mean_std  (features file with names (std dev and mean) transformed)</li>
+<li>tidy_data (the data set transformed and ready for writing)</li>
 </ul>
