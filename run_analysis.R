@@ -49,4 +49,4 @@ allData$subject <- as.factor(allData$subject)
 tidy_data = aggregate(allData[,names(allData) != c('activity','subject')], by=list(activity =allData$activity, subject=allData$subject), mean)
 
 # write the data to disc
-write.table(tidy_data, "tidy_movement_data.txt", sep="\t")
+write.table(tidy_data, "tidy_movement_data.txt", sep="\t", row.name = FALSE)
